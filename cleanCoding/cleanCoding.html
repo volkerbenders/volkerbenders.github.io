@@ -1,4 +1,4 @@
-<!doctype html>
+	<!doctype html>
 <html lang="en">
 
 	<head>
@@ -118,7 +118,7 @@
 						If you spot code duplications:
 						<li class="fragment">Use extract to variable</li>
 						<li class="fragment">Use extract to method</li>
-						<li class="fragment">...</li>
+						<li class="fragment">...in general refactor your code to eliminate duplications</li>
 					</section>
 				</section>
 
@@ -130,10 +130,9 @@
 						The general rule should be to stick to the necessary minimum amount of code to get your business case going.<br>
 					</section>
 					<section>
-					
-					<blockquote cite="https://twitter.com/abt_programming/status/459355597096620032">
-						&ldquo;Don't write code that guesses the future, arrange code so you can adapt to the future when it arrives&rdquo;
-					</blockquote>
+					  <blockquote cite="https://twitter.com/abt_programming/status/459355597096620032">
+						  &ldquo;Don't write code that guesses the future, arrange code so you can adapt to the future when it arrives&rdquo;
+					  </blockquote>
 					</section>
 					<section>
 						<h3>Write code you don't need</h3>
@@ -339,13 +338,13 @@ sheet.getRow(r).getCell(sc - 1).getStringCellValue().toLowerCase();
 					</code>
 					</pre>
 					<h4>
-						actually this has been trimmed to make it readable
-					<//h4>
+						This is production code - ugly, huhh?!
+					</h4>
 				</section>
+
 				<section>
 					<h2>Company Libraries</h2>
-					Functions like checking whether a certain layer is ionstalled should be implemented in a central component.
-					Foster using those libraries.
+					Put stuff used all over your product in a seperate library and promote its existence and use.
 				</section>
 
 				<section>
