@@ -2,7 +2,7 @@
 
 My GitHub Site to promote my projects and myself.
 
-[Gerbils](gerbil.md)
-[Mercurial Stuff](mercurial.md)
-[AEm Stuff](aem_tips_and_tricks.md)
+* [Gerbils](gerbil.md)
+* [Mercurial Stuff](mercurial.md)
+* [AEM Stuff](aem_tips_and_tricks.md)
 ---
