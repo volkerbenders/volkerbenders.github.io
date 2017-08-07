@@ -47,5 +47,6 @@ It should work with relative paths, too. But i haven't tested it yet.
 
 ## Status of all Bundles
 ```bash
-curl http://admin:admin@127.0.0.1:4502/system/console/bundles.json|jq '.data[].name + ", " + .data[].version + ", " + .data[].state' -
+curl --silent http://admin:admin@127.0.0.1:4502/system/console/bundles.json \
+        |jq '.data[] | .state + ": " + .name + " (" + .version + ")"' -
 ```
