@@ -27,12 +27,6 @@ vbe$ hg log --limit 1 --template "{rev} "
 4381
 ```
 
-### Show Revision ID and Author of last commit
-```bash
-vbe$ hg log --limit 1 --template "{rev} (by {author} )"
-4381
-```
-
 ### Show all commits to a branch
 ```bash
 vbe$ hg log --only-branch "feature/RuleTheWorld"
