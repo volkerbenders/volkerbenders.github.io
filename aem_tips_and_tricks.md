@@ -35,10 +35,11 @@ As per default everything you store in AEM stays there forever. Eventually stuff
 ## Move an AEM in filesystem
 We had the need to move an installed AEM on the filesystem. I moved the entire AEM installation folder from one folder to another. I considered me done. I was not.
 AEM still started but the servers error.log contained a lot of (a that time) strange error messages.
+The reason was it couldn't find the datastore aka repository.
 
-Reason was it couldn't find the datastore.
-The Filestore location can be changed in a file called
-"install/org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.cfg"
+The FileDataStore location can be changed in a file called
+```install/org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.cfg```
+
 ```bash
 path=/Users/vbe/Dev/source/aem/dz_docker_aem/author-cq61/crx-quickstart/repository/repository/datastore
 minRecordLength=4096
