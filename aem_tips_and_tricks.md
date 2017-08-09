@@ -38,10 +38,14 @@ AEM still started but the servers error.log contained a lot of (a that time) str
 The reason was it couldn't find the datastore aka repository.
 
 The FileDataStore location can be changed in a file called
-```install/org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.cfg```
+```
+install/org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.cfg
+```
+
+with the content
 
 ```bash
-path=/Users/vbe/Dev/source/aem/dz_docker_aem/author-cq61/crx-quickstart/repository/repository/datastore
+path=$AEM_SERVERS/author-cq61/crx-quickstart/repository/repository/datastore
 minRecordLength=4096
 ```
 It should work with relative paths, too. But i haven't tested it yet.
