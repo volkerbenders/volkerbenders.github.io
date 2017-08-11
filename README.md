@@ -1,6 +1,7 @@
 # volkerbenders.github.io
 
-My GitHub Site to promote my projects and myself.
+Personal tips and Tricks notebook. 
+
 
 * [Mercurial Stuff](mercurial.md)
 * [AEM Stuff](aem_tips_and_tricks.md)
