@@ -10,4 +10,8 @@ Personal tips and Tricks notebook.
 * [Apache Maven](maven.md)
 
 * [Piwik](piwik.md)
+
+* [Regular Expressions](regex.md)
+
+* [Git](git.md)
 ---
