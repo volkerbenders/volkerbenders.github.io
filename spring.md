@@ -4,3 +4,12 @@
 * [Cannot determine embedded database driver class for database type NONE](http://www.concretepage.com/forum/thread?qid=509)
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 * [Accessing JPA Data with REST](https://spring.io/guides/gs/accessing-data-rest/)
+* [CRUD, Spiring, REST, Kotlin](https://blog.codecentric.de/en/2017/04/crud-operations-spring-rest-resources-kotlin/)
+
+
+* [kotlin-spring-working-jpa-data-classes](https://blog.codecentric.de/en/2017/06/kotlin-spring-working-jpa-data-classes/)
+* [Kotlin Idioms](https://kotlinlang.org/docs/reference/idioms.html)
+* [Dev REST API w Spring Boot](https://dzone.com/articles/development-of-a-rest-api-in-spring-boot-framework)
+* [How to build a Simple REST API with Kotlin and Spring Boot](https://scotch.io/@grahamcox82/how-to-build-a-simple-rest-api-with-kotlin-and-spring-boot)
+* [Spring Boot REST APIs example](https://github.com/rkaneko/spring-boot-rest-api-example)
+* [5 Practical Tips for Building Your Spring Boot API](https://stormpath.com/blog/5-practical-tips-for-building-your-spring-boot-api)
