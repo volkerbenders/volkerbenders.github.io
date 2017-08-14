@@ -16,4 +16,11 @@ Personal tips and Tricks notebook.
 * [Git](git.md)
 
 * [Spring](spring.md)
+
+* [Piwik](piwik.md)
+
+* [Misc.](misc.md)
+
+* [Regular Expressions](regex.md)
+
 ---
