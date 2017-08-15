@@ -23,4 +23,6 @@ Personal tips and Tricks notebook.
 
 * [Regular Expressions](regex.md)
 
+* [Docker](docker.md)
+
 ---
