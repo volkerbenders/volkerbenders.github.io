@@ -9,3 +9,8 @@
 * [pascal grimaud sonar](https://github.com/pascalgrimaud/docker-sonarqube)
 * [JEE: Hello World. Kotlin](https://moelholm.com/2017/03/16/javaee-helloworld-kotlin/)
 * [Sonar OutOfMemor, Solved](https://github.com/SonarSource/docker-sonarqube/issues/77)
+
+## Sonar
+
+### Analyzing
+* [ResultOfMethodCallIgnored](https://stackoverflow.com/questions/6757230/findbugs-method-ignores-exceptional-return-value)
