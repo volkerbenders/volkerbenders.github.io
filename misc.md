@@ -7,5 +7,5 @@
 * [Selenium Cucumber, Java - Volker](https://github.com/volkerbenders/selenium-cucumber-java)
 * [Sonar runner opts](http://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner#AnalyzingwithSonarQubeScanner-Troubleshooting)
 * [pascal grimaud sonar](https://github.com/pascalgrimaud/docker-sonarqube)
-
+* [JEE: Hello World. Kotlin](https://moelholm.com/2017/03/16/javaee-helloworld-kotlin/)
 * [Sonar OutOfMemor, Solved](https://github.com/SonarSource/docker-sonarqube/issues/77)

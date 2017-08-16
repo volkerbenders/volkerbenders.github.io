@@ -14,4 +14,5 @@
 * [Spring Boot REST APIs example](https://github.com/rkaneko/spring-boot-rest-api-example)
 * [5 Practical Tips for Building Your Spring Boot API](https://stormpath.com/blog/5-practical-tips-for-building-your-spring-boot-api)
 * [Spring Data JPA](http://javabeat.net/spring-data-jpa/)
+* [reating and Testing a Kotlon REST Service](https://medium.com/@crsandeep/creating-and-testing-a-kotlin-restful-web-services-using-spring-boot-1a11aeda279e)
 * [Spring Boot with Kotlin](https://spring.io/blog/2016/02/15/developing-spring-boot-applications-with-kotlin)
