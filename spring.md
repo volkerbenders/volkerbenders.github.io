@@ -16,3 +16,6 @@
 * [Spring Data JPA](http://javabeat.net/spring-data-jpa/)
 * [reating and Testing a Kotlon REST Service](https://medium.com/@crsandeep/creating-and-testing-a-kotlin-restful-web-services-using-spring-boot-1a11aeda279e)
 * [Spring Boot with Kotlin](https://spring.io/blog/2016/02/15/developing-spring-boot-applications-with-kotlin)
+
+# Jetty
+* [Jetty, Webapp, JPA](https://github.com/civic/example-jetty-webapp-jpa/blob/master/pom.xml)

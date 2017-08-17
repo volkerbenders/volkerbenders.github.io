@@ -14,3 +14,8 @@
 
 ### Analyzing
 * [ResultOfMethodCallIgnored](https://stackoverflow.com/questions/6757230/findbugs-method-ignores-exceptional-return-value)
+* [Analyzing w SonarQube Scanner](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner)
+
+## JEE
+* [Jerey + Jetty](http://zetcode.com/articles/jerseyembeddedjetty/)
+* [Resteasy, Jetty and Fat JARs](https://robferguson.org/blog/2016/12/06/resteasy-embedded-jetty-and-fat-jars/)
