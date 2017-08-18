@@ -28,4 +28,6 @@ Personal tips and Tricks notebook.
 * [Sonar](sonar.md)
 
 * [Linux](linux.md)
+
+* [Hibernate](hibernate.md)
 ---
