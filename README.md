@@ -30,4 +30,6 @@ Personal tips and Tricks notebook.
 * [Linux](linux.md)
 
 * [Hibernate](hibernate.md)
+
+* [Selenium](selenium.md)
 ---
