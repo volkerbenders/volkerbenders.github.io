@@ -19,3 +19,4 @@
 
 # Jetty
 * [Jetty, Webapp, JPA](https://github.com/civic/example-jetty-webapp-jpa/blob/master/pom.xml)
+* [Spring-Boot Kotlin](http://www.baeldung.com/spring-boot-kotlin)

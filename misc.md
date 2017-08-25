@@ -12,6 +12,7 @@
 ### Replace everything
 
 This example replaces all occurences of 'ORM' with 'ORM w JPA' in `orm_en.html`
+Simple and easy - No Headache.
 
 ```bash
 sed -ie 's/ORM/ORM w JPA/g' orm_en.html
