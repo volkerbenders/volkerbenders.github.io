@@ -17,3 +17,8 @@ Simple and easy - No Headache.
 ```bash
 sed -ie 's/ORM/ORM w JPA/g' orm_en.html
 ```
+
+## ImageMagick
+
+### Watermaks
+* [Easy Watermarking](http://www.linuxjournal.com/content/easy-watermarking-imagemagick)
