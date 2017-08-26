@@ -35,6 +35,7 @@ Personal tips and Tricks notebook.
 
 * [Kotlin](kotlin.md)
 
+* [Python](python.md)
 
 * [LoraWan](lorawan.md)
 ---
