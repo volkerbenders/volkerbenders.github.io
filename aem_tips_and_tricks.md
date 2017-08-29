@@ -56,3 +56,9 @@ It should work with relative paths, too. But i haven't tested it yet.
 curl --silent http://admin:admin@127.0.0.1:4502/system/console/bundles.json \
         |jq '.data[] | .state + ": " + .name + " (" + .version + ")"' -
 ```
+
+## Dump Clientlibs
+
+To View all configured clientlibs (js, css,...) and the respective contents you can use the *dumplibs* page:
+
+- [Dump ClientLibs] (http://localhost:4502/libs/granite/ui/content/dumplibs.html)
