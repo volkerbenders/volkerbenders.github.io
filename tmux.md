@@ -8,6 +8,9 @@ I always forget the cryptic shortcuts and i don't want to google them every time
 
 ## Controls
 
+```
+^b means press CTRL (Strg on keyboards w german layout) and than the 
+```
 |Purpose | Command|
 |---|---|
 |Detach|^b d|

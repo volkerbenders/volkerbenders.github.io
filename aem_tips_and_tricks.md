@@ -59,6 +59,6 @@ curl --silent http://admin:admin@127.0.0.1:4502/system/console/bundles.json \
 
 ## Dump Clientlibs
 
-To View all configured clientlibs (js, css,...) and the respective contents you can use the *dumplibs* page:
+To View all configured clientlibs (js, css,...) and their respective contents you can use the *dumplibs* page:
 
-- [Dump ClientLibs] (http://localhost:4502/libs/granite/ui/content/dumplibs.html)
+- [Dump ClientLibs](http://localhost:4502/libs/granite/ui/content/dumplibs.html)
