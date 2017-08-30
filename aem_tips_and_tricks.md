@@ -57,8 +57,22 @@ curl --silent http://admin:admin@127.0.0.1:4502/system/console/bundles.json \
         |jq '.data[] | .state + ": " + .name + " (" + .version + ")"' -
 ```
 
-## Dump Clientlibs
-
-To View all configured clientlibs (js, css,...) and their respective contents you can use the *dumplibs* page:
+## Useful AEM-Links
 
 - [Dump ClientLibs](http://localhost:4502/libs/granite/ui/content/dumplibs.html)
+  To View all configured clientlibs (js, css,...) and their respective contents you can use the *dumplibs* page
+### Touch-UI
+- [Sites](http://127.0.0.1:4502/sites.html)
+
+### Classic UI
+- [SiteAdmin - ClassicUI](127.0.0.1:4502/siteadmin#/content)
+### Dump Clientlibs
+
+
+
+## HTL Template Language
+
+- [Getting started](https://docs.adobe.com/docs/en/htl/docs/getting-started.html)
+- [Introducton by Feike Visser](http://blogs.adobe.com/experiencedelivers/experience-management/htl-intro-part-1/)
+- [Java Use API](https://docs.adobe.com/docs/en/htl/docs/use-api/java.html)
+- [Sightly Quick Reference](http://aemtuts.com/aem-sightly-quick-reference/)

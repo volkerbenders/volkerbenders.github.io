@@ -9,6 +9,8 @@
 ```
 Generates a png image file in your projects target folder
 
+[Discussion on generating dependency-graphs](https://stackoverflow.com/questions/4084669/how-to-generate-a-graph-of-the-dependency-between-all-modules-of-a-maven-project)
+
 ## Deployment
 
 ### To Nexus
