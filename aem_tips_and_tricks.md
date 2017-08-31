@@ -75,4 +75,5 @@ curl --silent http://admin:admin@127.0.0.1:4502/system/console/bundles.json \
 - [Getting started](https://docs.adobe.com/docs/en/htl/docs/getting-started.html)
 - [Introducton by Feike Visser](http://blogs.adobe.com/experiencedelivers/experience-management/htl-intro-part-1/)
 - [Java Use API](https://docs.adobe.com/docs/en/htl/docs/use-api/java.html)
+- [Custom Async Clientlibs](http://www.nateyolles.com/blog/2016/06/custom-aem-html5-async-clientlibs)
 - [Sightly Quick Reference](http://aemtuts.com/aem-sightly-quick-reference/)
