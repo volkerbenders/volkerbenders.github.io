@@ -5,10 +5,16 @@ It may be useful for others...
 ## TortoiseHG & Filters
 TortoiseHG supports filtering the list of shown branches.
 You can specify the list of branches by using filter expressions:
-* branch("development") -> display development-branch only
-* branch("integration") -> display integration-branch only
-* branch("development") or branch("feature/MY-AWESOME_FEATUREBRANCH") -> display development- and feature-branch at the same time
+- `branch("development")` -> display development-branch only
+- `branch("integration")` -> display integration-branch only
+- `branch("development") or branch("feature/MY-AWESOME_FEATUREBRANCH")` -> display development- and feature-branch at the same time
 
+- `head()` -> Displays all heads on all branches
+- `merge()` -> Show all Merge Commits
+- `tagged()` -> Show all Tags 
+- `author('<String>')` -> Searches all Commits for this substring in the respective author information
+    * Can be usefull to find all commits by '@companyname.tld': `author('@acme.com')`
+    * Supports boolean operators `author('AUHTOR-NAME') and branch('staging')`
 ## Mercurial log output
 ### Show last commit only
 ```bash

@@ -5,8 +5,7 @@
 * [JBehave Getting started](http://jbehave.org/reference/latest/getting-started.html)
 * [Selenium, Cucumber Java]](https://github.com/selenium-cucumber/selenium-cucumber-java/blob/master/doc/canned_steps.md#assertion-steps)
 * [Selenium Cucumber, Java - Volker](https://github.com/volkerbenders/selenium-cucumber-java)
-
-
+* [MAC Lookup, Passwords, Geeky stuff](http://wintelguy.com/index.pl)
 ## String Replace w `sed`
 
 ### Replace everything
@@ -22,3 +21,4 @@ sed -ie 's/ORM/ORM w JPA/g' orm_en.html
 
 ### Watermaks
 * [Easy Watermarking](http://www.linuxjournal.com/content/easy-watermarking-imagemagick)
+
