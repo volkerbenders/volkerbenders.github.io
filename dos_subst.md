@@ -12,7 +12,7 @@ subst x: C:\Dev\source2\commons\acme-commons-apps\src\main\jcr_root
 Means maps the path `C:\Dev\source2\commons\acme-commons-apps\src\main\jcr_root` on drive x:.
 So issueing
 ```
-C:\Users\xne1399>dir x:
+C:\Users\TonyStark>dir x:
  Datenträger in Laufwerk X: ist System
  Volumeseriennummer: F6B5-5EC0
 
@@ -32,7 +32,7 @@ C:\Users\xne1399>dir x:
 
 Is the same as issueing
 ```
-C:\Users\xne1399>dir C:\Dev\source2\commons\acme-commons-apps\src\main\jcr_root
+C:\Users\TonyStark>dir C:\Dev\source2\commons\acme-commons-apps\src\main\jcr_root
  Datenträger in Laufwerk C: ist System
  Volumeseriennummer: F6B5-5EC0
 
