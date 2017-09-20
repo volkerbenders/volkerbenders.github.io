@@ -15,6 +15,10 @@ You can specify the list of branches by using filter expressions:
 - `author('<String>')` -> Searches all Commits for this substring in the respective author information
     * Can be usefull to find all commits by '@companyname.tld': `author('@acme.com')`
     * Supports boolean operators `author('AUHTOR-NAME') and branch('staging')`
+
+### Show all Tags on development branch
+- `hg log -r "tagged() and branch("development")"`
+
 ## Mercurial log output
 ### Show last commit only
 ```bash

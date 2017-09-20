@@ -23,7 +23,7 @@ C:\Users\xne1399>dir x:
 27.01.2017  14:56               511 .content.xml
 27.01.2017  14:56    <DIR>          apps
 12.07.2017  16:28    <DIR>          content
-27.01.2017  14:56    <DIR>          dzimport
+27.01.2017  14:56    <DIR>          acmeimport
 27.01.2017  14:56    <DIR>          etc
 27.04.2017  09:52    <DIR>          _oak_index
                1 Datei(en),            511 Bytes
@@ -43,7 +43,7 @@ C:\Users\xne1399>dir C:\Dev\source2\commons\acme-commons-apps\src\main\jcr_root
 27.01.2017  14:56               511 .content.xml
 27.01.2017  14:56    <DIR>          apps
 12.07.2017  16:28    <DIR>          content
-27.01.2017  14:56    <DIR>          dzimport
+27.01.2017  14:56    <DIR>          acmeimport
 27.01.2017  14:56    <DIR>          etc
 27.04.2017  09:52    <DIR>          _oak_index
                1 Datei(en),            511 Bytes
