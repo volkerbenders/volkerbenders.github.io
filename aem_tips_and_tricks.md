@@ -11,6 +11,17 @@
 
 <!-- /TOC -->
 
+
+# Templates
+
+When seting up a new site i relied on
+
+- [Templates Basics](https://docs.adobe.com/docs/en/aem/6-1/develop/the-basics/templates.html#Templates)
+  -> The part about ~Template Availability~ was very useful.
+
+pretty much
+
+
 ## I started using Adobe AEM in January 2016.
 Since it is a quite complex technology stack i had to question the internet a lot to answer my questions.
 This is a Collection of my findings and maybe they're useful to somebody.
