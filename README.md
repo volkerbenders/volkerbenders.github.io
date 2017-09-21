@@ -24,5 +24,5 @@ Personal tips and Tricks notebook.
 - [LoraWan](lorawan.md)
 - DOS Commands
   * [Substitute (long) path with drive letter](dos_subst.md)
-- [ESP 8266](esp8266/)
+- [ESP 8266](esp8266/esp8266-e01.md)
 ---
