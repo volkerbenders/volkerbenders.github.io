@@ -22,7 +22,7 @@ Personal tips and Tricks notebook.
 - [Kotlin](kotlin.md)
 - [Python](python.md)
 - [LoraWan](lorawan.md)
-- [DOS Commands]
+- DOS Commands
   * [Substitute (long) path with drive letter](dos_subst.md)
-
+- [ESP 8266](esp8266/)
 ---
