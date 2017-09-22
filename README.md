@@ -6,6 +6,7 @@ Personal tips and Tricks notebook.
 - [TMux Shortcuts](tmux.md)
 - [Mercurial Stuff](mercurial.md)
 - [AEM Stuff](aem_tips_and_tricks.md)
+- [AEM Stuff - new](aem/README.md)
 - [Apache Maven](maven.md)
 - [Piwik](piwik.md)
 - [Regular Expressions](regex.md)
