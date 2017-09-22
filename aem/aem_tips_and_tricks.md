@@ -14,10 +14,11 @@
 
 # Templates
 
-When seting up a new site i relied on
+When setting up a new site i relied on
 
 - [Templates Basics](https://docs.adobe.com/docs/en/aem/6-1/develop/the-basics/templates.html#Templates)
   -> The part about ~Template Availability~ was very useful.
+  Very usefull is the diagram on the ~template evaluation~ process.
 
 pretty much
 
