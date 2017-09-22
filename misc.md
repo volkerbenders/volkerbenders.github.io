@@ -22,3 +22,6 @@ sed -ie 's/ORM/ORM w JPA/g' orm_en.html
 ### Watermaks
 * [Easy Watermarking](http://www.linuxjournal.com/content/easy-watermarking-imagemagick)
 
+## MQTT
+- [Cattle Crew Mosquitto & Docker](https://thecattlecrew.net/2017/02/24/a-tiny-mqtt-broker-docker-image/)
+- [Eclipse Mosquitto on Docker](https://hub.docker.com/_/eclipse-mosquitto/)
