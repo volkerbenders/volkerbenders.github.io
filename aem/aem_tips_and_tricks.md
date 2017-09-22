@@ -21,9 +21,10 @@ When seting up a new site i relied on
 
 pretty much
 
+# AEM & CLI 
+- [Some cURL commands](http://www.aemcq5tutorials.com/tutorials/adobe-cq5-aem-curl-commands/)
 
 ## I started using Adobe AEM in January 2016.
-Since it is a quite complex technology stack i had to question the internet a lot to answer my questions.
 This is a Collection of my findings and maybe they're useful to somebody.
 
 ## Where AEMs data lives
