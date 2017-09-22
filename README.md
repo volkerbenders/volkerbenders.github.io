@@ -3,6 +3,7 @@
 Personal tips and Tricks notebook.
 
 - [My JWT.io example](https://github.com/volkerbenders/jwt_demo)
+- [MQTT](mqtt/)
 - [TMux Shortcuts](tmux.md)
 - [Mercurial Stuff](mercurial.md)
 - [AEM Stuff](aem_tips_and_tricks.md)
