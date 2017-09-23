@@ -11,8 +11,8 @@
 
 ## Testers
   * [RegExr](http://regexr.com/)
-  *
+  * [Debuggex - With Visual Representation](https://www.debuggex.com/)
 
-## Examplpes & Cheatsheets
+## Examples & Cheatsheets
   * [Grabbing HTML, trimming Whitespaces, Email, IPs, valid Dates..](http://www.regular-expressions.info/examples.html)
   * []()
