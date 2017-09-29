@@ -11,6 +11,11 @@
 
 <!-- /TOC -->
 
+# Activate entire JCR Trees
+
+AEMs publisher has a function called "Activate Tree":
+http://<PUBLISHER IP OR NAME>:4501/etc/replication/treeactivation.html
+
 
 # Templates
 
@@ -22,7 +27,7 @@ When setting up a new site i relied on
 
 pretty much
 
-# AEM & CLI 
+# AEM & CLI
 - [Some cURL commands](http://www.aemcq5tutorials.com/tutorials/adobe-cq5-aem-curl-commands/)
 
 ## I started using Adobe AEM in January 2016.
