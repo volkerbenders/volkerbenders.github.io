@@ -25,3 +25,5 @@ sed -ie 's/ORM/ORM w JPA/g' orm_en.html
 ## MQTT
 - [Cattle Crew Mosquitto & Docker](https://thecattlecrew.net/2017/02/24/a-tiny-mqtt-broker-docker-image/)
 - [Eclipse Mosquitto on Docker](https://hub.docker.com/_/eclipse-mosquitto/)
+- [GoodToKnow DB - FuseBits](http://www.gtkdb.de/index_18_1044.html)
+- [Meteor, Heroku, MongoDB](https://www.coshx.com/blog/2016/08/19/how-to-deploy-a-meteor-1-4-app-to-heroku/)
