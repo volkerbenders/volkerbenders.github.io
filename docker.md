@@ -32,4 +32,14 @@
   }
 ]
   ```
-  
+## Best Practices
+- [Favour VOlumes over bind mount](https://docs.docker.com/engine/admin/volumes/volumes/#start-a-container-with-a-volume)
+
+
+## Docker setup / installation
+- [local image store location](https://stackoverflow.com/questions/19234831/where-are-docker-images-stored-on-the-host-machine?rq=1)
+## Monitoring
+- [Aru Guptas Codeship](https://blog.codeship.com/monitoring-docker-containers/)
+- [5 Methods for Docker Monitoring](https://plus.google.com/+JavaCodeGeeks/posts/RHr4tX8REiz)
+- [Prometheus](https://docs.docker.com/engine/admin/prometheus/)
+- [cAdvisor](https://oliverveits.wordpress.com/2016/11/02/how-to-set-up-docker-monitoring-via-cadvisor-influxdb-and-grafana/)
