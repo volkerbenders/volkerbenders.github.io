@@ -36,6 +36,19 @@
 - [Favour VOlumes over bind mount](https://docs.docker.com/engine/admin/volumes/volumes/#start-a-container-with-a-volume)
 
 
+## Monitor docker performance with useful names
+
+`docker stats` can be used to monitor docker containers.
+The downside is it shows cryptic container ids instead of names
+```bash
+```
+
+To make the output more usefull you can enhance the command: `docker stats $(docker ps --format={{.Names}})`
+```bash
+```
+
+Pretty neat. Thanks to [omercnet](https://github.com/omercnet) for mentioning it [here](https://github.com/moby/moby/issues/20973)
+
 ## Docker setup / installation
 - [local image store location](https://stackoverflow.com/questions/19234831/where-are-docker-images-stored-on-the-host-machine?rq=1)
 ## Monitoring
