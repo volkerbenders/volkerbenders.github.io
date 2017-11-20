@@ -17,6 +17,21 @@ Simple and easy - No Headache.
 sed -ie 's/ORM/ORM w JPA/g' orm_en.html
 ```
 
+## SSH
+
+### Copy RSA-ID to remote host
+
+Passwordless login makes use of public keys and is really neat.
+But one hurdle: you've to transfer the public part of the public-/private keypair to the remote host.
+The private counter part is yours - and yours alone. Dont share it - dont even post it on facebook ;-)
+On some system there`s a command called `ssh-copy-id` do perform the transfer. How about the absence of this tool?
+You can use the following bash command - requires you to enter the password for the last time:
+
+```bash
+cat ~/.ssh/id_rsa.pub \
+  | ssh user@123.45.56.78 \
+  "mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys"
+```
 ## ImageMagick
 
 ### Watermaks
