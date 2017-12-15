@@ -1,0 +1,9 @@
+﻿# Hergeschaut!
+Präsentationen gestalten mit remark
+-----------------------------------------------------------
+c't 20/17, Seite 150, jo@ct.de
+
+boilerplate-ct-remote.html
+
+
+Laden Sie das remark-Archiv von der Projektseite https://github.com/gnab/remark herunter, extrahieren Sie es und kopieren Sie die Datei boilerplate-ct-remote.html in das Verzeichnis remark-develop. Sie ist eine Demo-Präsentation, die viele Funktionen von remark vorstellt. Ihr Quelltext enthält unser angepasstes CSS.
