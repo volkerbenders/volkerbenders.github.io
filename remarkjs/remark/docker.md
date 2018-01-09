@@ -1,8 +1,9 @@
 class: center, middle, uum
 
 # Docker
-## einführung
-.footnote[Vortrag "IoT - Hands On", Volker.Benders@unterschiedundmacher.com]
+## Einführung
+.footnote[Vortrag "Docker - Eine Einführung", Volker.Benders@unterschiedundmacher.com]
+>>>>>>> docker
 
 ---
 class: center, middle, uum
@@ -38,15 +39,179 @@ class: center, middle, uum
 .left-column[
   Worum geht es?
 ]
+<<<<<<< HEAD
 
 .right-column[
   Docker ist eine weitere Möglichkeit virtuelle Maschienen zu benutzen.
 ]
+=======
+--
+.right-column[
+  Docker ist eine weitere Möglichkeit virtuelle Maschienen zu benutzen.
+]
+--
+.left-column[
+  Abgrenzung zum Rest
+]
+--
+.right-column[
+  Docker will Services virtualisieren
+]
+--
+.right-column[
+  Werkzeuge für
+]
+--
+.right-column[
+  Erstellung
+]
+--
+.right-column[
+  Versionierung
+]
+--
+.right-column[
+  Provisionierung
+]
+--
+.right-column[
+  Orchestrierung
+]
+>>>>>>> docker
 
 ---
 class: center, middle, uum
 
 .left-column[
+<<<<<<< HEAD
+=======
+  Docker Flow
+]
+--
+.right-column[
+  Deklaration im `Dockerfile`
+]
+--
+.right-column[
+  Bauen eines `Image`
+]
+--
+.right-column[
+  Starten des `Images` - es wird zum `Container`
+]
+---
+class: center, middle, uum
+
+.left-column[
+  Terminologie der Docker-Welt
+]
+--
+.right-column[
+  Dockerfile
+]
+--
+.right-column[
+  Docker Registry
+]
+--
+.right-column[
+  Docker Image
+]
+--
+.right-column[
+  Docker Container
+]
+--
+.right-column[
+  Docker Registry
+]
+---
+class: center, middle, uum
+
+.left-column[
+  Das Dockerfile
+]
+--
+.right-column[
+  deklarative Beschreibung der System-Konfiguration
+]
+--
+.right-column[
+  distributionsunabhängig
+]
+--
+.right-column[
+  Plaintext mit eigener DSL
+]
+--
+.right-column[
+  gut zu versionieren
+]
+---
+class: center, middle, uum
+
+.left-column[
+  Die Docker Registry
+]
+--
+.right-column[
+  Repo mit Images
+]
+--
+.right-column[
+  Einfache Verteilung
+]
+--
+.right-column[
+private / public Registries
+]
+--
+.right-column[
+  Analog den Maven Repositories
+]
+---
+class: center, middle, uum
+
+.left-column[
+  Images
+]
+--
+.right-column[
+  Images sind das Ergebnis der Abarbeitung eines Dockerfiles.
+]
+--
+---
+class: center, middle, uum
+
+.left-column[
+  Was ist Anders?
+]
+--
+.right-column[
+  Infrastruktur
+]
+--
+.right-column[
+  Dependency-Managemnt
+]
+--
+.right-column[
+  Versionsverwaltung
+]
+--
+.right-column[
+  Skalierbarkeit
+]
+--
+.right-column[
+  Applikations-Upgrade mit Zero Downtime
+]
+--
+---
+class: center, middle, uum
+
+.left-column[
+>>>>>>> docker
   Geschichte
 ]
 
@@ -67,13 +232,27 @@ Hauptmotivation war die (sauteuren) Rechner besser zu nutzen
 class: center, middle, uum
 
 .left-column[
+<<<<<<< HEAD
   Timewarp
 ]
 
+=======
+  Timewarp nach 2013
+]
+--
+>>>>>>> docker
 .right-column[
 Heute hat jeder Aldi-Rechner genug Schwuppdizität um mehrere Applikationen zugleich auszuführen
 ]
 
+<<<<<<< HEAD
+=======
+--
+.rigth-column[
+03/2013 dotCloud stellt "Docker" vor
+]
+
+>>>>>>> docker
 ---
 class: center, middle, uum
 
@@ -100,20 +279,48 @@ class: center, middle, uum
 .right-column[
 [Virtualbox](https://www.virtualbox.org/)
 ]
+<<<<<<< HEAD
 --
 (sehr viele Images)[https://app.vagrantup.com/boxes/search]
 (einige Images - z.Bsp mit Oracle 12c unter)[http://www.oracle.com/technetwork/community/developer-vm/index.html]
 
 
+=======
+>>>>>>> docker
 ---
 class: center, middle, uum
 
 .left-column[
+<<<<<<< HEAD
   Wie virtualisiert die Konkurenz
 ]
 --
 .right-column[
  (ISO-) Image erzeugen
+=======
+  Muss ich bei Null anfangen?
+]
+--
+.right-column[
+[Docker - 100.000+ Images](https://hub.docker.com/)
+]
+--
+.right-column[
+[Vagrant - sehr viele Images](https://app.vagrantup.com/boxes/search)
+]
+--
+.right-column[
+[Oracle VirtualBox - einige Images - z.Bsp mit Oracle 12c unter](http://www.oracle.com/technetwork/community/developer-vm/index.html)
+]
+.right-column[
+...
+]
+---
+class: center, middle, uum
+
+.left-column[
+ Wie virtualisiert die Konkurenz
+>>>>>>> docker
 ]
 --
 .right-column[
@@ -121,6 +328,13 @@ class: center, middle, uum
 ]
 --
 .right-column[
+<<<<<<< HEAD
+=======
+ Ergenis ist ein vollständiges OS
+]
+--
+.right-column[
+>>>>>>> docker
 Verteilen
 ]
 --
@@ -136,7 +350,45 @@ Resultat: Es entsteht ein Monolith
 class: center, middle, uum
 
 .left-column[
+<<<<<<< HEAD
   Wie macht es Docker
+=======
+ Docker-Philosophie
+]
+--
+.right-column[
+ Ein Container -> ein Dienst
+]
+--
+.right-column[
+ Maximale Wiederverwendung
+]
+--
+.right-column[
+ Reduce to the Max
+]
+---
+class: center, middle, uum
+
+.left-column[
+ Wie macht es Docker
+]
+--
+.right-column[
+ Ausgehend von einem Basis Image werden diesem die benötigten Dienste hinzugefügt.
+]
+--
+.right-column[
+ Docker bedeutet Infrastruktur
+]
+--
+.right-column[
+ *Dockerfile*: Deklative Beschreibung
+]
+--
+.right-column[
+ `Dockerfile`: Deklative Beschreibung
+>>>>>>> docker
 ]
 --
 .right-column[
@@ -266,9 +518,29 @@ $> docker run \
 Hallo
 ```
 ---
+<<<<<<< HEAD
 
 class: center, middle, uum
 
+=======
+class: center, middle, uum
+
+# Zusammenarbeit
+
+Ein Container alleine macht noch nicht viel.
+--
+Docker stellt virtulle Netzwerke bereit
+--
+darüber könnne Container Daten austauschen.
+
+```
+docker network create ruv
+sh startWildfly.sh
+
+sh startMailcatcher.sh
+```
+
+>>>>>>> docker
 
 
 

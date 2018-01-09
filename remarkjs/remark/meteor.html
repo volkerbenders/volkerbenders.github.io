@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Einführung in remark</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+        @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+        @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+        body {
+            font-family: 'Droid Serif';
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Yanone Kaffeesatz';
+            font-weight: 400;
+            margin-bottom: 0.4em;
+        }
+
+        .remark-slide-content h1 {
+            font-size: 4em;
+        }
+
+        .remark-slide-content h2 {
+            font-size: 3em;
+        }
+
+        .remark-slide-content h3 {
+            font-size: 2em;
+        }
+
+        .remark-slide-content p {
+            font-size: 1.6em;
+        }
+
+        .footnote {
+            font-size: small;
+            position: absolute;
+            left: 2em;
+            bottom: 1em;
+        }
+
+        .bildunter {
+            font-size: small;
+            vertical-align: top;
+        }
+
+        .logo {
+            position: absolute;
+            right: 1em;
+            top: 0.1em;
+            width: 70px;
+        }
+
+        p {
+            -webkit-margin-before: 0.2em;
+            -webkit-margin-after: 0.4em;
+        }
+
+        li p {
+            line-height: 1, 25em;
+        }
+
+        .red {
+            color: #fa0000;
+        }
+
+        .large {
+            font-size: 3em;
+        }
+
+        a,
+        a>code {
+            color: rgb(249, 38, 114);
+            text-decoration: none;
+        }
+
+        code {
+            background: #e7e8e2;
+            border-radius: 5px;
+        }
+
+        .remark-code,
+        .remark-inline-code {
+            font-family: 'Ubuntu Mono';
+            font-size: 1.2em;
+        }
+
+        .remark-code-line-highlighted {
+            background-color: #373832;
+        }
+
+        #slideshow .slide .content code {
+            font-size: 1.2em;
+        }
+
+        #slideshow .slide .content pre code {
+            font-size: 1.4em;
+            padding: 20px;
+        }
+
+        .inverse {
+            background: #272822;
+            color: #777872;
+            text-shadow: 0 0 20px #333;
+        }
+
+        .inverse h1,
+        .inverse h2 {
+            color: #f3f3f3;
+            line-height: 0.8em;
+        }
+        /* Two-column layout */
+
+        .left-column {
+            width: 35%;
+            height: 92%;
+            float: left;
+            padding-top: 0.4em;
+        }
+
+        .right-column {
+            width: 55%;
+            float: right;
+            padding-top: 0.4em;
+        }
+
+        .remark-slide-content {
+            background-size: contain;
+        }
+
+        .uum {
+            background: #65af1a;
+        }
+    </style>
+</head>
+
+<body>
+    <textarea id="source">
+
+
+class: center, middle # Einführung in remark.footnote[Vortrag "Einführung in remark", Jo Bager]
+
+---
+
+class: center, middle, inverse
+#remark - was ist das?
+
+---
+
+class:left
+
+#remark
+
+remark ist ein Browser-basiertes Präsentationssystem. Es setzt komplett auf offene Technik: Eine remark-Präsentation ist nichts anderes als eine HTML-Datei mit CSS und JavaScript. Das System steht kostenlos als Open Source unter der MIT-Lizenz bereit.
+
+???
+
+Erfunden vom Norweger Ole Petter Bang
+
+mittlerweile größere Community
+
+---
+
+
+## Einige Besonderheiten von remark
+
+
+1. MarkDown zur Auszeichnung von Folien, mit einigen smarten Erweiterungen
+
+2. Syntax-Hervorhebung
+
+3. Präsentationsmodus
+
+4. Automatische Skalierung der Slides
+
+5. Touch-Support für mobile Geräte
+
+6. Ein Ökosystem mit Erweiterungen
+
+---
+
+class: center, middle, inverse
+
+##MarkDown zur Auszeichnung
+Einfacher geht es nicht
+
+---
+
+##MarkDown zur Auszeichnung
+
+Die Definition der letzten Folie sah so aus:
+
+```markdown
+class: center, middle, inverse
+##MarkDown zur Auszeichnung
+Einfacher geht es nicht
+```
+
+MarkDown ist sehr einfach:
+
+```markdown
+#, ##, ### markiert Überschriften,
+[Text](Bild.png) bettet ein Bild ein
+```
+
+---
+
+class: center
+
+#MarkDown-Besonderheiten
+
+.left-column[
+  Folien können Properties erhalten, um sie zu benennen und zu stylen - hier zum Beispiel wird der Text zentriert angeordnet.
+]
+
+.right-column[
+Dieser Teil der Folie hat die Klasse
+
+```markdown
+.right-column
+```
+zugewiesen bekommen, die mit einer entsprechenden CSS-Klasse korrespondiert.
+
+]
+
+---
+
+#Syntax-Hervorhebung
+
+Sehr praktisch für Entwickler: remark kann in Listings einiger Dutzend Programmiersprachen die Syntax markieren, hier zum Beispiel CSS:
+
+```css
+h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+```
+
+---
+
+class: center, middle, inverse
+
+##Mehrspaltige Layouts und HTML
+Inhalte übersichtlich strukturieren
+
+---
+
+#Mehrspaltige Layouts
+
+.left-column[ remark kann Inhalte auch in Folien nebeneinander anordnen. ] .right-column[ ![catcontent](http://placekitten.com/400/300?image=2) ]
+
+.footnote[Bild: "quatre mains"]
+
+---
+
+#HTML einbinden
+
+.center[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JSqBHrq7f3A" frameborder="0" allowfullscreen></iframe>
+]
+
+</br>
+HTML-Widgets einbinden, wie hier den YouTube-Player? Check.
+
+---
+
+class: center, middle, inverse
+
+##Bilder
+Nicht so viel schreiben, zeigen
+
+---
+
+class: inverse
+
+background-image: url(http://placekitten.com/1600/1200?image=15)
+
+# Folie mit Hintergrundbild
+
+.footnote[Bild: "caseydavid"]
+
+---
+
+# Folie mit Hintergrundbild
+
+Folien mit Hintergrundbild eignen sich gut, um neue Kapitel einzuleiten. Aber man muss aufpassen: Wenn die Bildabmessungen nicht dem Verhältnis 4:3 entsprechen, können unerwünschte Effekte auftreten, siehe folgende Folie.
+
+---
+
+class: inverse
+
+background-image: url(http://placekitten.com/1200/1200?image=15)
+
+# Folie mit Hintergrundbild
+
+.footnote[Bild: "caseydavid"]
+
+---
+
+# Logo
+
+.logo[![Logo](http://placekitten.com/100/100?image=12)]
+
+Kleines Goodie unseres Beispiel-CSS: Die Klasse .logo ermöglicht es, oben rechts ein Logo einzubinden - zum Beispiel für die erste oder die abschließende Folie. Besser als das Katzenfoto eignet sich ein Firmenlogo, idealerweise freigestellt.
+
+.footnote[Bild: "BigTallGuy"]
+
+---
+
+# Weitere Infos
+
+... auf der remark-GitHub-Seite: https://github.com/gnab/remark
+
+</br>
+
+Alle Bilder stammen von placekitten.com
+
+ </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+        var slideshow = remark.create({
+            sourceUrl: 'meteor.md'
+        });
+    </script>
+</body>
+
+</html>
