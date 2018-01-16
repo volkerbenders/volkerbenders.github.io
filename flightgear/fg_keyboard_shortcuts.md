@@ -18,7 +18,6 @@ Incomplete List - WIP
 | Increase flaps | ] | - |
 | Increase speed-up | a  | - |
 | Apply all brakes | b  | -  |
-
 | Let ATC/instructor repeat last message | + | - |
 | Exit | ESC | - |
 | Reset Zoom | X | Ctrl |
@@ -62,5 +61,3 @@ Incomplete List - WIP
 
 | Mixture leaner | M | - |
 | Mixture leaner | M | - |
-
-
