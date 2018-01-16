@@ -7,13 +7,18 @@ Shortcuts extracted from [keyboard.xml](https://sourceforge.net/p/flightgear/fgd
 Incomplete List - WIP
 
 |Function | Key | Modifier|
-|----|----|----|
+|---- |----| ----|
 | Right Brake | . | - |
 | Left Brake | , | - |
 | 1st Engine | ! | - |
 | 2nd Engine | @ | - |
 | 3rd Engine | # | - |
 | 4th Engine | $ | - |
+| Decrease flaps | [ | - |
+| Increase flaps | ] | - |
+| Increase speed-up | a  | - |
+| Apply all brakes | b  | -  |
+
 | Let ATC/instructor repeat last message | + | - |
 | Exit | ESC | - |
 | Reset Zoom | X | Ctrl |
@@ -46,5 +51,16 @@ Incomplete List - WIP
 | Look front right | 9 | Shift |
 | Increase throttle or autopilot autothrottle | 9 | - |
 | Toggle parking brake on or off | B | - |
-| Toggle parking brake on or off | B | Ctrl |
+| Mixture leaner | M | - |
+| Mixture richer | m | - |
+| Propeller Coarser | N | - |
+| Propeller finer | n | - |
+| Toggle panel | P | - |
+| Decrease spoilers | j | - |
+| Increase spoilers | k | - |
+
+
+| Mixture leaner | M | - |
+| Mixture leaner | M | - |
+
 

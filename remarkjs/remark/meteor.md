@@ -99,6 +99,50 @@ rechts
 ]
 
 ---
+
+class: center,uum
+
+# Frontend
+
+Hohe Flexibilität wird durch die Unterstützung verschiedener Techniken erreicht:
+
+--
+Blaze - Handlebars Syntax
+--
+React -
+--
+Angluar (2)
+
+
+
+.left-column[
+  links
+]
+
+.right-column[
+rechts
+]
+
+---
+
+class: center,uum
+
+# DDP
+
+Hier kommen wir zum Kernpunkt: `DDP` - das Dynamic Data Protocol.
+DDP steht für den Daten-Austausch und optimistischer Datenmanipulation.
+
+
+
+.left-column[
+  links
+]
+
+.right-column[
+rechts
+]
+
+---
 class: center, middle, uum
 
 # WTF!

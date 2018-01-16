@@ -28,4 +28,5 @@ Personal tips and Tricks notebook.
   * [Substitute (long) path with drive letter](dos_subst.md)
 - [ESP 8266](esp8266/)
 - [Arduino Stuff](arduino/)
+- [FlightGear](flightgear/fg_keyboard_shortcuts.md)
 ---
