@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#gem install jekyll bundler
+#jekyll new volker
+#exit
+cd volker
+bundle exec jekyll serve
