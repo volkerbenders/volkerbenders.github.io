@@ -6,6 +6,8 @@
 * [Selenium, Cucumber Java]](https://github.com/selenium-cucumber/selenium-cucumber-java/blob/master/doc/canned_steps.md#assertion-steps)
 * [Selenium Cucumber, Java - Volker](https://github.com/volkerbenders/selenium-cucumber-java)
 * [MAC Lookup, Passwords, Geeky stuff](http://wintelguy.com/index.pl)
+
+
 ## String Replace w `sed`
 
 ### Replace everything
@@ -42,3 +44,13 @@ cat ~/.ssh/id_rsa.pub \
 - [Eclipse Mosquitto on Docker](https://hub.docker.com/_/eclipse-mosquitto/)
 - [GoodToKnow DB - FuseBits](http://www.gtkdb.de/index_18_1044.html)
 - [Meteor, Heroku, MongoDB](https://www.coshx.com/blog/2016/08/19/how-to-deploy-a-meteor-1-4-app-to-heroku/)
+
+## XML 
+My xml files sooner or later look horrible. 
+There's `xmlint`to the rescue:
+
+```bash
+cat source_file.xml |xmllint --format - |cat >  destination.xml -
+```
+
+# EOF
