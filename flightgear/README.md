@@ -1,5 +1,7 @@
 # Flightgear Keyboard Shortcuts
 
+* [Info on JoyStick](http://wiki.flightgear.org/De/Joystick)
+
 Keyboard Shortcuts for [Flightgear](https://sourceforge.net/projects/flightgear).
 
 Shortcuts extracted from [keyboard.xml](https://sourceforge.net/p/flightgear/fgdata/ci/next/tree/keyboard.xml)
