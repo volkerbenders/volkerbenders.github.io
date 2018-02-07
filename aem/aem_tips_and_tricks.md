@@ -97,3 +97,14 @@ curl --silent http://admin:admin@127.0.0.1:4502/system/console/bundles.json \
 - [Sightly Quick Reference](http://aemtuts.com/aem-sightly-quick-reference/)
 - [Calling Clientlibs from HTL](http://blogs.adobe.com/experiencedelivers/experience-management/htl-clientlibs/)
 - [Using Client-Side Libraries](https://docs.adobe.com/docs/en/aem/6-2/develop/the-basics/clientlibs.html)
+
+## Configuration
+
+### Configure Log-Files
+
+You can manage log files using [Web Console](http://vm-uum-docker:4502/system/console/slinglog)
+Loggers can be added, deleted and modified there
+
+
+
+
