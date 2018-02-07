@@ -105,6 +105,11 @@ curl --silent http://admin:admin@127.0.0.1:4502/system/console/bundles.json \
 You can manage log files using [Web Console](http://vm-uum-docker:4502/system/console/slinglog)
 Loggers can be added, deleted and modified there
 
+# JCR Queries
 
+List of Pages providing examples on how to query the JCR:
+- [http://labs.6dglobal.com/blog/2014-10-07/9-jcr-sql-2-queries-every-aem-dev-should-know/](http://labs.6dglobal.com/blog/2014-10-07/9-jcr-sql-2-queries-every-aem-dev-should-know/)
+- [Queries by my coworker florian](https://gist.github.com/floriankraft/8b3720464318cd5cd9e2)
+- [https://apiltamang.wordpress.com/2016/10/21/list-of-jcr_sql2-queries-ive-had-to-use-as-an-aem-developer/](https://apiltamang.wordpress.com/2016/10/21/list-of-jcr_sql2-queries-ive-had-to-use-as-an-aem-developer/)
 
 
