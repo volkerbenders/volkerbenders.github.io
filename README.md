@@ -30,6 +30,7 @@ Personal tips and Tricks notebook.
 - [Arduino Stuff](arduino/)
 - [FlightGear](flightgear/fg_keyboard_shortcuts.md)
 - [My Jekyll Test Site](jekyll/volker)
+- [OS X](osx.md)
 - [RemarkJS](remarkjs/presentions.md)
 
 
