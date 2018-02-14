@@ -3,6 +3,7 @@
 Personal tips and Tricks notebook.
 
 - [My JWT.io example](https://github.com/volkerbenders/jwt_demo)
+- [My rsync-ssh-character-conversion-backuo script](rsync.md)
 - [MQTT](mqtt/)
 - [TMux Shortcuts](tmux.md)
 - [Mercurial Stuff](mercurial.md)
