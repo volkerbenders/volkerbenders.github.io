@@ -32,9 +32,7 @@ Again: better. But there's still room for improvement:
 By applying filters and string interpolation we can have a list with all deployed bundles, their version and status
 
 ```
-curl http://admin:admin@vm-uum-docker:4502/system/console/bundles.json \
-	| jq '.data[] \
-    | (.symbolicName + " : " + .version + " ( " + .state + " )") '
+curl http://admin:admin@vm-uum-docker:4502/system/console/bundles.json | jq '.data[] | (.symbolicName + " : " + .version + " ( " + .state + " )") '
 
 com.day.commons.osgi.wrapper.joda-time : 1.6.0.0002 ( Active )
 "json : 20160810.0.0 ( Active )"
@@ -74,9 +72,7 @@ com.day.commons.osgi.wrapper.joda-time : 1.6.0.0002 ( Active )
 
 If you the colon `:` with comma `,` you can have this list an an excel compatible format:
 ```
-curl http://admin:admin@vm-uum-docker:4502/system/console/bundles.json \
-	| jq '.data[] \
-    | (.symbolicName + "," + .version + "," + .state ) '
+curl http://admin:admin@vm-uum-docker:4502/system/console/bundles.json | jq '.data[] | (.symbolicName + "," + .version + "," + .state ) '
     
 "com.adobe.osgi.wrapper.coretech.fontengine,70.459844.3,Active"
 "com.adobe.livecycle.formsportal-bundle,4.4.14,Active"
