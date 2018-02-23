@@ -4,6 +4,8 @@
 
 ## Using the list of bundles
 
+### First Approach - html
+
 The URL `/system/console/bundles` renders a list of all deployed bundles and gives information about them.
 
 ```
@@ -15,6 +17,7 @@ The URL `/system/console/bundles` renders a list of all deployed bundles and giv
 
 The above renders a list as html page. Nice for browsers - bad for automation.
 
+### Second Approach - JSON-Text
 Appending `.json` (system/console/bundles.json) produces the same list but as JSON:
 
 ```
@@ -22,13 +25,47 @@ nb-syngeni350-2:clone_and_build vbe$ curl --silent  http://admin:admin@vm-uum-do
 {"status":"Bundle information: 511 bundles in total, 500 bundles active, 9 bundles active fragments, 2 bundles installed.","s":[511,500,9,0,2],"data":[{"id":0,"name":"System Bundle","fragment":false,"stateRaw":32,"state":"Active","version":"4.6.1.B001","symbolicName":"org.apache.felix.framework","category":""},{"id":302,"name":"Abdera Client","fragment":false,"stateRaw":32,"state":"Active","version":"1.0.0.R783018","symbolicName":"org.apache.abdera.client","category":""},{"id":303,"name":"Abdera Core","fragment":false,"stateRaw":32,"state":"Active","version":"1.0.0.R783018","symbolicName":"org.apache.abdera.core","category":""},{"id":304,"name":"Abdera Extensions - Media","fragment":false,"stateRaw":32,"state":"Active","version":"1.0.0.R783018","symbolicName":"org.apache.abdera.extensions-media","category":""},{"id":305,"name":"Abdera Extensions - OpenSearch","fragment":false,"stateRaw":32,"state":"Active","version":"1.0.0.R783018","symbolicName":"org.apache.abdera.extensions-opens
 ```
 
+### 3rd Approach - JSON-Objects
 OK, we can do better: Let's pipe it through [JQ](https://stedolan.github.io/jq/):
 
 ```
-
+nb-syngeni350-2:clone_and_build vbe$ curl --silent http://admin:admin@vm-uum-docker:4502/system/console/bundles.json|jq
+{
+  "status": "Bundle information: 511 bundles in total, 500 bundles active, 9 bundles active fragments, 2 bundles installed.",
+  "s": [
+    511,
+    500,
+    9,
+    0,
+    2
+  ],
+  "data": [
+    {
+      "id": 0,
+      "name": "System Bundle",
+      "fragment": false,
+      "stateRaw": 32,
+      "state": "Active",
+      "version": "4.6.1.B001",
+      "symbolicName": "org.apache.felix.framework",
+      "category": ""
+    },
+    {
+      "id": 302,
+      "name": "Abdera Client",
+      "fragment": false,
+      "stateRaw": 32,
+      "state": "Active",
+      "version": "1.0.0.R783018",
+      "symbolicName": "org.apache.abdera.client",
+      "category": ""
+    },
 ```
 
 Again: better. But there's still room for improvement:
+
+### 4th Approach - JSON-Object, filters and string interpolation
+
 By applying filters and string interpolation we can have a list with all deployed bundles, their version and status
 
 ```
@@ -69,6 +106,8 @@ com.day.commons.osgi.wrapper.joda-time : 1.6.0.0002 ( Active )
 "com.day.commons.osgi.wrapper.svnkit : 1.3.0.0002 ( Active )"
 "com.adobe.cq.com.adobe.cq.projects.wcm.core : 0.1.6 ( Active )"
 ```
+
+### 5th - same as above but manager friendly
 
 If you the colon `:` with comma `,` you can have this list an an excel compatible format:
 ```
