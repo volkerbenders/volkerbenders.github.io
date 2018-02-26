@@ -139,7 +139,7 @@ curl http://admin:admin@vm-uum-docker:4502/system/console/bundles.json | jq '.da
 
 I use `sed` to remove all the quotes from output: `sed -e 's/\"//g'`
 ```
-curl http://admin:admin@vm-uum-docker:4502/system/console/bundles.json | jq '.data[] | (.symbolicName + "," + .version + "," + .state ) '|grep adobe|sed -e 's/\"//g'
+curl http://admin:admin@vm-uum-docker:4502/system/console/bundles.json | jq '.data[] | (.symbolicName + "," + .version + "," + .state ) '|sed -e 's/\"//g'
 
 ...
 com.adobe.internal.xmp,5.0.0.014,Active
