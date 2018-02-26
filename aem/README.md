@@ -134,3 +134,20 @@ curl http://admin:admin@vm-uum-docker:4502/system/console/bundles.json | jq '.da
 "com.adobe.granite.csrf,1.0.8.CQ610-B0004,Active"
 "com.adobe.granite.frags.impl,0.0.2,Active"
 ```
+
+### 6th - lets get rid of all the quotes
+
+I use `sed` to remove all the quotes from output: `sed -e 's/\"//g'`
+```
+curl http://admin:admin@vm-uum-docker:4502/system/console/bundles.json | jq '.data[] | (.symbolicName + "," + .version + "," + .state ) '|grep adobe|sed -e 's/\"//g'
+
+...
+com.adobe.internal.xmp,5.0.0.014,Active
+com.adobe.cq.cq-healthcheck,1.0.6,Active
+com.adobe.cq.mobile.cq-mobile-core,6.1.42,Active
+com.adobe.cq.mobile.cq-mobile-phonegap-build,5.8.22,Active
+com.adobe.cq.mobile.cq-mobile-ui,6.1.6,Active
+com.adobe.cq.cq-pre-upgrade-backup,6.1.4,Active
+com.adobe.cq.cq-pre-upgrade-cleanup,6.1.2,Active
+...
+```
