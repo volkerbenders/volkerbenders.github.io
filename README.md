@@ -17,7 +17,7 @@ Personal tips and Tricks notebook.
 - [Piwik](piwik.md)
 - [Misc.](misc.md)
 - [Regular Expressions](regex.md)
-- [Docker](docker.md)
+- [Docker](docker/README.md)
 - [Sonar](sonar.md)
 - [Linux](linux.md)
 - [Hibernate](hibernate.md)
