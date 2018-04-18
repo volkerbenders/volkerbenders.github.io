@@ -11,6 +11,18 @@
 
 <!-- /TOC -->
 
+# Repository Maintenance
+AEMs TarMK can grow really huge. There're ways to deal with it - trimming its size by either
+* remove everything you don't need anymore or
+* create a new repo with only content you need right now
+
+The first approach is also known as garbage collection or offline tar compaction.
+The latter one is often more efficient and yields a smaller result size.
+
+```bash
+$> java -jar ~/crx2oak-1.6.8-all-in-one.jar --src-datastore=/opt/aem/datastore --datastore=$HOME/datastore-new --exclude=/var/audit --copy-versions=false segment-old:repository segment-old:$HOME/repository-new
+```
+
 # Activate entire JCR Trees
 
 AEMs publisher has a function called "Activate Tree":
@@ -111,5 +123,3 @@ List of Pages providing examples on how to query the JCR:
 - [http://labs.6dglobal.com/blog/2014-10-07/9-jcr-sql-2-queries-every-aem-dev-should-know/](http://labs.6dglobal.com/blog/2014-10-07/9-jcr-sql-2-queries-every-aem-dev-should-know/)
 - [Queries by my coworker florian](https://gist.github.com/floriankraft/8b3720464318cd5cd9e2)
 - [https://apiltamang.wordpress.com/2016/10/21/list-of-jcr_sql2-queries-ive-had-to-use-as-an-aem-developer/](https://apiltamang.wordpress.com/2016/10/21/list-of-jcr_sql2-queries-ive-had-to-use-as-an-aem-developer/)
-
-
