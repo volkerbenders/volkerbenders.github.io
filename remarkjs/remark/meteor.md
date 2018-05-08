@@ -45,11 +45,15 @@ Node.JS wird durchgängig sowohl auf Client- als auch auf Server-Seite eingesetz
 
 ---
 
-class: center,uum
+class: center,middle,uum
 
 #Um was geht es?
+--
 
 Meteor ist ein Framework das alle Belange einer Web-Applikation abdeckt.
+
+--
+## Einheitliche Sprechae
 
 --
 ## Frontend
@@ -62,19 +66,52 @@ Meteor ist ein Framework das alle Belange einer Web-Applikation abdeckt.
 
 ---
 
-class: center,uum
+class: center,middle,uum
 
 #Persistence
 
 Meteor setzt hier auf MongoDB.
 
+---
+class:center,middle,uum
+
+# Frontend
+
+Hier stehen Blaze (Handlebars), Angular und React zur Auswahl
+
+
+
+---
+class: center,middle,uum
+## NoSQL
+
+--
+## Warum Mongo
+
+- Mongo ist eine schemafreie Datenbank.
+--
+- Mongo ist dokumenten-basiert
+
+---
+## Was habe ich davon?
+
+### Dokumentenbasiert
+
+- Gespeichert werden JSON-Dokumente
+--
+- Der Inhalt und die Struktur sind nicht festgelegt
+--
+- Dies ermöglicht eine schnelle Anpassung des verwendeten Daten-Modells
+
+Schema-Freiheit bedeutet das ich mich als Entwickler nicht au
+
 
 .left-column[
-  links
+  flexible datenstrukturen
 ]
 
 .right-column[
-rechts
+marketing bla
 ]
 
 ---
@@ -82,8 +119,15 @@ rechts
 class: center,uum
 
 #WebServer
+--
+Meteor kommuniziert mittels HTTP/2.
 
-Meteor kommuniziert mittels HTTP/2. Dazu ist ein entsprechender WebServer mit von der Partie.
+--
+
+Dazu ist ein entsprechender WebServer mit von der Partie.
+--
+Konsequent SSL Verschlüsselt
+???
 HTTP/2 ist für `http://` und `https://`spezifiziert. Die Big 5 Browser unterstützen HTTP/2 allerdings nur per `https://`.
 Somit kann man von einer dafakto Standard SSL Verschlüsselung sprechen.
 
