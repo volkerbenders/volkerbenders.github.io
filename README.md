@@ -1,4 +1,4 @@
-# C.W.A. - Coder Wit Attitude 
+# C.W.A. - Coder With Attitude 
 
 Personal tips and Tricks notebook.
 
