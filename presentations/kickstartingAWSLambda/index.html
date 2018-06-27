@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>AWS Lambda Kickstart</title>
+
+	<meta name="description" content="Intro to Serverless Framework and AWS Lamda">
+	<meta name="author" content="VOlker Benders">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+
+	<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section data-background-image="https://pre00.deviantart.net/6ab3/th/pre/f/2013/142/b/c/lambda_graffiti_by_happytim1080-d667q4x.jpg">
+				<h1>AWS Lambda</h1>
+				<h3>Kotlin</h3>
+				<h3>Serverless.com</h3>
+				<p>
+					<small>Created by <a href="cwa">Volker Benders</a> </small>
+				</p>
+			</section>
+
+			<section data-background-image="https://pre00.deviantart.net/6ab3/th/pre/f/2013/142/b/c/lambda_graffiti_by_happytim1080-d667q4x.jpg">
+
+				<h1>AWS Lambda</h1>
+				<h3>Kotlin</h3>
+				<h3>Serverless.com</h3>
+				<p>
+					<small>Created by <a href="cwa">Volker Benders</a> </small>
+				</p>
+			</section>
+			<section>
+
+			</section>
+			<section>
+				<section>
+					<h1>Serverless computing</h1>
+					<h3>FaaS - Function as a Service</h3>
+				</section>
+				<section>
+					<p class="fragment">Serverless doesn't mean "no computers"</p>
+					<p class="fragment">You just don't care</p>
+				</section>
+				<section>
+					<p class="fragment">It's an event based computation model</p>
+					<p class="fragment">You just deploy code</p>
+					<p class="fragment">The platform triggers your functions</p>
+				</section>
+
+				<section>
+					<p class="fragment">The platform runs your code,</p>
+					<p class="fragment">provides logging capabilities</p>
+					<p class="fragment">and monitors your functions</p>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>Serverless</h1> The framework serverless.com helps you getting from idea to code in zero time.
+				</section>
+				<section>
+					Want to see it in action?
+					<p class="fragment">I knew it - lets go!</p>
+				</section>
+				<section>
+					<p class="fragment">Provider agnostic (AWS is just one)</p>
+				</section>
+				<section data-background-iframe="https://serverless.com/framework/docs/providers/">
+				</section>
+				<section>
+					<!--h1>Serverless</h1-->
+					<p class="fragment">All your config are belong to yml</p>
+				</section>
+				<section data-background-iframe="https://serverless.com/framework/docs/providers/aws/guide/serverless.yml/">
+				</section>
+				<section>
+					<h3>Complexity</h3> Even the pure number of services provided by AWS can be scary...
+				</section>
+				<section data-background-iframe="https://netninja.com/wp-content/uploads/2016/07/aws_console-768x698.png">
+
+				</section>
+				<section>
+					<p class="fragment">Connecting different services can be tricky</p>
+				</section>
+				<section>
+					<h3>Serverless offers</h3>
+					<p class="fragment grow">templates to start from</p>
+					<p class="fragment grow">templates for languages</p>
+					<p class="fragment grow">templates for providers</p>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>AWS Lambda</h1>
+					<p>Amazons Implementation of "serverless"</p>
+				</section>
+				<section>
+					<h1>Events</h1>
+					<h3>Your function can be triggered by numerous events:</h3>
+					<p class="fragment">Web-Requests</p>
+					<p class="fragment">Data stored in S3</p>
+					<p class="fragment">Kinesis events</p>
+					<p class="fragment">...</p>
+				</section>
+				<section>
+					<p><a href="https://www.youtube.com/watch?v=X6npt45rnHI">Arun Gupta describes it as "...an extension to CloudFromation templates"</a></p>
+				</section>
+				<section>
+					<p>Excellect Integration into AWS</p>
+
+					<p>That's what i would expect ;-)</p>
+				</section>
+				<section>
+					<p>Production ready</p>
+				</section>
+				<section>
+					<p>Deploy your code and let the platform handle the rest </p>
+				</section>
+				<section>
+					<p>Easy and cheap to start with</p>
+					<a href="https://aws.amazon.com/de/lambda/pricing/">Pricing</a>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1>Kotlin</h1>
+					<p class="fragment">read: Java on steroids</p>
+				</section>
+				<section>
+					<h1>Kotlin</h1>
+					<p class="fragment">Concise Language</p>
+				</section>
+				<section>
+					<h1>Kotlin</h1>
+					<p class="fragment">ReUse the java libraries you used before</p>
+				</section>
+				<section>
+					<h1>Kotlin</h1>
+					<p class="fragment">Its easy to learn - even for java developers :-)</p>
+				</section>
+				<section>
+					<h1>Kotlin</h1>
+					<p class="fragment">Your dev team will get tracktion really quick</p>
+				</section>
+			</section>
+
+			<section>
+
+				<section>
+					<h2>Limits & Caveats</h2>
+					<p>I'll show you some contraints you should have in mind</p>
+					<br>
+					<p><a href="https://docs.aws.amazon.com/de_de/lambda/latest/dg/limits.html">This is a more detailed list of limitations</a></p>
+				</section>
+				<section>
+					<p>Concurrency per Region:</p>
+					<p>The max. number of lambda functions per region is limited to 1000</p>
+				</section>
+				<section>
+					<h2>Limits & Caveats</h2>
+
+					<p>Runtime</p>
+					<p>The max. runtime is set to 5 minutes / function</p>
+				</section>
+
+				<section>
+					<h2>Limits & Caveats</h2>
+
+					<p>You can control the max. response time in 100ms increments</p>
+
+				</section>
+
+
+				<section>
+					<h2>Limits & Caveats</h2>
+					<h4>Maximum Size of Deployment Artifact</h4>
+					<table>
+						<thead>
+							<tr>
+								<th>compressed</th>
+								<th>un-compressed</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>50MB</td>
+								<td>250MB</td>
+							</tr>
+						</tbody>
+					</table>
+					<p>Even a simple hello-world-style i wrote exceeded the limit!
+					</p>
+				</section>
+				<section>
+					<h3>Limits</h3>
+					<h4>Keep deployments small</h4>
+					<table>
+						<thead>
+							<tr>
+								<th></th>
+								<th>prev</th>
+								<th>optimized</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>maven</td>
+								<td>compile</td>
+								<td>provided</td>
+							</tr>
+							<tr>
+								<td>gradle</td>
+								<td>compile</td>
+								<td>compileOnly</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+				<section>
+					<h3>Monitoring</h3>
+					<p>The platform generates log data for you</p>
+					<p>The platform helps you keeping track of generated log data</p>
+				</section>
+
+				<section>
+					<section>
+						<h1>Kotlin</h1>
+						<p class="fragment">read: Java on steroids</p>
+						<p class="fragment">Concise Language</p>
+						<p class="fragment">Staticly typed</p>
+						<p class="fragment">You can compile Java or JavaScript from it </p>
+						<p class="fragment">ReUse the java libraries you used before</p>
+						<p class="fragment">Its easy to learn - even for java developers :-)</p>
+						<p class="fragment">Your dev team will get tracktion really quick</p>
+					</section>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>PIZZA TIME</h1>
+					<p>
+						- <a href="https://slides.com">Try the online editor</a> <br> - <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+					</p>
+				</section>
+
+		</div>
+
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			// More info https://github.com/hakimel/reveal.js#dependencies
+			dependencies: [{
+					src: 'lib/js/classList.js',
+					condition: function() {
+						return !document.body.classList;
+					}
+				},
+				{
+					src: 'plugin/markdown/marked.js',
+					condition: function() {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{
+					src: 'plugin/markdown/markdown.js',
+					condition: function() {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					callback: function() {
+						hljs.initHighlightingOnLoad();
+					}
+				},
+				{
+					src: 'plugin/search/search.js',
+					async: true
+				},
+				{
+					src: 'plugin/zoom-js/zoom.js',
+					async: true
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				}
+			]
+		});
+	</script>
+
+</body>
+
+</html>
